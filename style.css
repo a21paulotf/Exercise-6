@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@500&display=swap');
-
+html,body{
+    height:100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
   img{
     width: 250px;
     background-color: white;
@@ -10,9 +16,9 @@
 }
 
 article{
+    width: 400px;
     text-align: center;
     background-color: #052fab;
-    margin: 0px 270px 0px 270px;
     padding: 1px 0px 10px 0px;
 }
 
