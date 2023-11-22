@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300&family=Sunflower:wght@500&display=swap');
+
+  img{
+    width: 250px;
+    background-color: white;
+    border: 5px solid #E6DE83;
+    border-radius: 25px 15px 25px 15px;
+    padding: 5px;
+
+}
+
+article{
+    text-align: center;
+    background-color: #052fab;
+    margin: 0px 270px 0px 270px;
+    padding: 1px 0px 10px 0px;
+}
+
+h1{
+    font-family: 'Lobster';
+    font-size: 50px;
+    color: #E6DE83;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Sunflower';
+    font-size: 30px;
+    color: #E6DE83;
+    font-weight: bold;
+}
+
+footer button:nth-child(1){
+    font-family: 'Sunflower';
+    font-weight: bold;
+    font-size: 18px;
+    color: #052fab;
+    border: 3px solid #E6DE83;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+footer button:nth-child(1):hover{
+    font-family: 'Sunflower';
+    font-weight: bold;
+    font-size: 18px;
+    color: #E6DE83;
+    border: 3px solid #E6DE83;
+    background-color: #052fab;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+footer button:nth-child(2){
+    font-family: 'Sunflower';
+    font-weight: bold;
+    font-size: 18px;
+    color: #052fab;
+    border: 3px solid white;
+    background-color: #E6DE83;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+footer button:nth-child(2):hover{
+    font-family: 'Sunflower';
+    font-weight: bold;
+    font-size: 18px;
+    color: #E6DE83;
+    border: 3px solid white;
+    background-color: #052fab;
+    border-radius: 10px;
+    transition: 0.5s ease;
+}
+
+button{
+    padding: 15px 20px 15px 20px;
+    margin: 0px 30px 0px 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
